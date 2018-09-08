@@ -10,3 +10,6 @@
 [submodule ".vim/pack/plugins/start/vim-go"]
 	path = .vim/pack/plugins/start/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule ".vim/pack/plugins/start/vim-racer"]
+	path = .vim/pack/plugins/start/vim-racer
+	url = https://github.com/racer-rust/vim-racer

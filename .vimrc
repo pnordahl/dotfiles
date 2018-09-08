@@ -6,9 +6,19 @@ filetype plugin on
 syntax on
 set hlsearch
 
-autocmd BufWritePre *.go :GoBuild
+
+" vim-racer
+" Also it's worth turning on 'hidden' mode for buffers otherwise you need to save the current buffer every time you do a goto-definition
+set hidden
+let g:racer_cmd = "$HOME/.cargo/bin/racer"
+" complete function definition; arguments and return type
+" let g:racer_experimental_completer = 1
+
+" vim-rust
+autocmd BufWritePre *.rs :RustFmt
 
 " vim-go
+autocmd BufWritePre *.go :GoBuild
 let g:go_fmt_command = "goimports"
 
 
