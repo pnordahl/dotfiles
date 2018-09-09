@@ -2,3 +2,4 @@
 .vim/view
 
 .tmux/resurrect
+.tmux/plugins
