@@ -16,3 +16,6 @@
 [submodule ".tmux/plugins/tpm"]
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule ".vim/colors/seoul256.vim"]
+	path = .vim/colors/seoul256.vim
+	url = https://github.com/junegunn/seoul256.vim
