@@ -3,3 +3,5 @@
 
 .tmux/resurrect
 .tmux/plugins
+tmux-client-*
+tmux-server-*
