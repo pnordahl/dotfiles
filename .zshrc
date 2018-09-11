@@ -4,14 +4,6 @@ export EDITOR=vim
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$PATH:$HOME/go/bin
 
-# Mutt
-export MUTT_EMAIL_ADDRESS="plnordahl@gmail.com"
-export MUTT_REALNAME="Patrick Nordahl"
-export MUTT_SMTP_URL="smtp://plnordahl@smtp.gmail.com:587/"
-
-# If you're using google apps put your full email address in the smtp url
-# export MUTT_SMTP_URL="smtp://username@domain.com@smtp.gmail.com:587/"
-
 # Go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export GOPATH=$HOME/lab/go
