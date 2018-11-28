@@ -19,6 +19,3 @@
 [submodule ".vim/colors/seoul256.vim"]
 	path = .vim/colors/seoul256.vim
 	url = https://github.com/junegunn/seoul256.vim
-[submodule ".vim/pack/plugins/start/deoplete.nvim"]
-	path = .vim/pack/plugins/start/deoplete.nvim
-	url = https://github.com/Shougo/deoplete.nvim.git

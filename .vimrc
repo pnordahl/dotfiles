@@ -28,10 +28,6 @@ autocmd BufWritePre *.rs :RustFmt
 autocmd BufWritePre *.go :GoBuild
 let g:go_fmt_command = "goimports"
 
-" deoplete
-if has('nvim')
-	let g:deoplete#enable_at_startup = 1
-
 " fzf
 set rtp+=/usr/local/opt/fzf
 nnoremap <C-p> :Files<CR>
