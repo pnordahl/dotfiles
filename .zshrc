@@ -4,9 +4,18 @@ export EDITOR=vim
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$PATH:$HOME/go/bin
 
+# JS
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 # Go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export GOPATH=$HOME/lab/go
+export PATH=$PATH:$GOPATH/bin
+
+export PATH=$PATH:/usr/local/bin
+export VIRTUALENVWRAPPER_PYTHON=$(which python3)
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/patrick/.oh-my-zsh"
@@ -111,3 +120,6 @@ if [ -f '/Users/patrick/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source 
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/patrick/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/patrick/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
